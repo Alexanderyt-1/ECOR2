@@ -1,7 +1,3 @@
-export default function RootLayout({ children }) {
-  return (
-    <html lang="es">
-      <body>{children}</body>
-    </html>
-  );
+export default function Home() {
+  return <h1>EcoRuta 🚀</h1>;
 }
